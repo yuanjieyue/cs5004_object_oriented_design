@@ -1,0 +1,11 @@
+package edu.neu.ccs.cs5004.assignment4.problem3;
+
+public interface AttackResult {
+
+  /**
+   * Get the result of the hit on the cell, if it miss the ship, hit the ship or the ship sunk.
+   *
+   * @return the result of attack
+   */
+  String result();
+}
